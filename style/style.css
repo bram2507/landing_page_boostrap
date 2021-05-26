@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+/*
+ Colors Palette : 
+         #FFB3A6  - salmon
+         #F5604B  - orange
+         #52A7FE  - lightblue
+         #FDBA45  - lightyellow
+
+ Fonts : 
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+h1{
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 48px;
+    color: #F5604B;
+}
+
+p{
+    font-size: 20px;
+    color: #F5604B;
+}
+
+/* Navbar */
+nav{
+    background-color: #FFB3A6;
+    height: 96px;
+}
+
+
+.logo{
+    padding: 15px; 
+    margin: 15px 50px;
+    height: 60px;
+    width: 60px; 
+
+    border-radius: 50px;
+    background-color: white;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    padding: 25px 25px ;
+}
+
+ul li a {
+    position: relative;
+    display: block;
+    padding: 4px 0;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+ul li a::after {
+    position: absolute;
+    content: "";
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: white;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s;
+}
+
+ul li a:hover {
+    color: white;
+}
+
+ul li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+/* Sections */
+#top-section,
+#top-middle-section,
+#bottom-middle-section,
+#bottom-section{
+    width: 100%;
+    min-height:600px;
+    background-color: white;
+}
+
+#bottom-middle-section{
+    margin-top: 150px;
+    background-image: url("../assets/Isometric_background_svg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* #bottom-section{ background-color: blanchedalmond;} */
+
+.top-left-col{
+
+    padding: 150px 50px 50px 50px;
+}
+
+.top-right-col{
+    padding: 150px 50px 50px 50px;
+}
+
+#top-text{
+    margin-top: 50px;
+}
+
+#contact-button{
+    width: 194px;
+    height: 50px;
+    background-color: #F5604B;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border:none;
+    margin-top: 50px;
+    transition : 0.2s;
+}
+
+#contact-button:hover{
+    color: #F5604B;
+    background-color: white;
+    border: 2px solid #F5604B;
+    transition : 0.2s;
+}
+
+/* Middle section  */
+#top-middle-text{
+    margin-top: 100px;
+    padding: 50px 50px 50px;
+}
+
+#top-middle-img{
+    padding: 50px 50px;
+    width: 100%;
+    height: 100%;
+}
+
+#design-button{
+    margin-top: 50px;
+    width: 194px;
+    height: 50px;
+    background-color: #F5604B;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border:none;
+    transition : 0.2s;
+}
+
+#design-button:hover{
+    color: #F5604B;
+    background-color: white;
+    border: 2px solid #F5604B;
+    transition : 0.2s;
+}
+
+#top-middle-background-svg{
+   margin-top: 100px;
+   z-index: -1;
+}
+
+#middle-design-button{
+   
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 100px;
+    box-shadow: 2px 8px 12px rgb(0 0 0 / 5%);
+    border:none;
+}
+
+#bottom-middle-img{
+    margin-top:150px;
+    padding: 50px 50px;
+    width: 100%;
+    height: 100%;
+}
+
+#middle-text-bottom{
+    font-size: 38px;
+    margin-top: 150px;
+}
+
+.flex-cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 150px;
+}
+
+.middle-card{
+    transform: scale(1);
+}
+
+.flex-cards > div{
+   
+    background-color: rgb(255, 179, 166, 0.5);
+    width: 350px;
+    height: 450px;
+     border-radius: 8px;
+    margin-bottom: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+.flex-cards > div:hover{
+    background-color: rgb(255, 179, 166);
+    transform: translateY(-15px);
+    z-index: 10;
+    transition: 0.3s;
+}
+
+.img-cards{
+    margin-top: 50px;
+}
+
+.text-cards{
+   padding: 5px 50px 50px;
+    margin-top: 50px;
+    font-size: 20px;
+    color: white;
+}
+
+.redmore{
+    color: white;
+    font-size: 20px;
+}
+
+.flex-arrow{
+    display: flex;
+    justify-content: flex-end;
+  
+}
+
+.flex-arrow > div{
+    color: white;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: -15px;
+    padding-top: -15px;
+    cursor: pointer;
+}
+
+/* Media Querys */
+/* Small devices */
+@media screen and (max-width: 411px){
+
+    #text-background-svg{
+        margin-top: 10px;
+        font-size: 30px;
+        padding: 50px 50px 50px;
+        color: white;
+    }
+
+    #bottom-middle-img{
+        margin-top: -1px;
+    }
+
+    #middle-text-bottom{
+        padding: 50px 50px 50px;
+        margin-top: -1px;
+    }
+
+    #middle-design-button{
+        margin-top: -10px;
+    }
+
+    .flex-cards > div{
+   
+        background-color: rgb(255, 179, 166, 0.5);
+        width: 90%;
+        height: 500px;
+         border-radius: 8px;
+        margin-bottom: 150px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        transition: 0.3s;
+    }
+}
+
+/* Medium devices */
+@media (min-width: 411px) and (max-width: 798px){
+    #text-background-svg{
+        margin-top: 15px;
+        font-size: 38px;
+        padding: 50px 50px 50px;
+        color: white;
+    }
+
+    #middle-design-button{
+        margin-top: -30px;
+    }
+
+
+}
+
+/* Large devices */
+@media (min-width: 798px) and (max-width: 1300px){
+    #text-background-svg{
+        margin-top: 50px;
+        font-size:38px;
+        padding: 50px 50px 50px;
+        color: white;
+    }
+
+   
+    #middle-design-button{
+        margin-top: -40px;
+    }
+}
+
+@media  (min-width: 1300px){
+    #text-background-svg{
+        margin-top: 50px;
+        font-size:38px;
+        padding: 50px 50px 50px;
+        color: white;
+    }
+
+   
+    #middle-design-button{
+        margin-top: 60px;
+    }
+}
