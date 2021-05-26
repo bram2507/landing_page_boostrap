@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="249" height="244" viewBox="0 0 249 244">
+  <g id="Grupo_83" data-name="Grupo 83" transform="translate(-2745 701)">
+    <ellipse id="Elipse_285" data-name="Elipse 285" cx="124.5" cy="122" rx="124.5" ry="122" transform="translate(2745 -701)" fill="#fff"/>
+    <g id="Grupo_82" data-name="Grupo 82" transform="translate(508.132 -441.065)">
+      <g id="Grupo_79" data-name="Grupo 79" transform="translate(2280.868 -211.935)">
+        <g id="Grupo_21" data-name="Grupo 21">
+          <g id="Grupo_20" data-name="Grupo 20">
+            <path id="Trazado_482" data-name="Trazado 482" d="M-325.865,45.616s61.2,62.406,87.732,74.449,23.893-4.807,5.3-28.236S-312.5,26.347-312.5,26.347Z" transform="translate(378.671 24.809)" fill="none" stroke="#ffb3a6" stroke-width="4"/>
+            <path id="Trazado_483" data-name="Trazado 483" d="M-318.169,87.739s-13.15-2.284-12.873-9.689,7.406-17.614,13.981-19.932,12.319,10.658,12.319,10.658Z" transform="translate(370.574 -17.82)" fill="none" stroke="#ffb3a6" stroke-width="4"/>
+            <path id="Trazado_484" data-name="Trazado 484" d="M-290.687,85.258s-2.811-27.979-14.8-35.886-38.008-2.041-38.008-2.041,5.2,30.182,13.984,43.7,26.028,16.679,26.028,16.679" transform="translate(343.493 -45.238)" fill="none" stroke="#ffb3a6" stroke-width="4"/>
+            <path id="Trazado_486" data-name="Trazado 486" d="M-330.074,66.715s9.389-4.346,12.8-1.4,5.036,8.144,5.036,8.144l3.86-4.787a40.458,40.458,0,0,0-6.615-8.191,10,10,0,0,0-5.018-2.436C-325.146,57.326-330.074,66.715-330.074,66.715Z" transform="translate(374.467 -17.981)" fill="#ffb3a6"/>
+            <path id="Trazado_487" data-name="Trazado 487" d="M-325.158,65.478s29,17.928,53.214,39.56c13.727,12.266,28.5,26.842,36.607,38.26a34.913,34.913,0,0,1,6.1,14.142s9.237-8.676-13.634-32.446a261.246,261.246,0,0,0-21.075-19.956C-288.684,83.865-321.362,61.5-321.362,61.5" transform="translate(387.676 -9.855)" fill="#ffb3a6"/>
+          </g>
+          <path id="Trazado_485" data-name="Trazado 485" d="M-343.04,47.385s19.086,1.849,29.946,13.679S-299.6,94.707-299.6,94.707l9.548-9.17s-.352-25.444-13.615-34.64S-343.04,47.385-343.04,47.385Z" transform="translate(343.071 -45.648)" fill="#ffb3a6"/>
+        </g>
+      </g>
+      <g id="Grupo_80" data-name="Grupo 80" transform="translate(2361.39 -203.171)">
+        <rect id="Rectángulo_454" data-name="Rectángulo 454" width="5.29" height="31.743" rx="2.645" transform="translate(13.49 0)" fill="#ffb3a6"/>
+        <rect id="Rectángulo_455" data-name="Rectángulo 455" width="5.29" height="31.852" rx="2.645" transform="translate(31.852 13.226) rotate(90)" fill="#ffb3a6"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,4 +1,17 @@
 
-document.getElementsByClassName('cards')[1].addEventListener('mouseleave', function(ev) {
-   console.log("Cosas");
- });
+function sendEmail(){
+
+}
+function ready(){
+  document.getElementById('topButton').addEventListener('click',()=>{
+    window.scrollTo(0,0);
+  });
+  
+}
+
+
+
+// function goTop(){
+//   window.scrollTo(0,0);
+//   alert("Hola mundo");
+// }
