@@ -12,12 +12,10 @@
         font-family: 'Roboto', sans-serif;
 */
 
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  
 }
 
 body{
@@ -40,6 +38,8 @@ p{
     color: #F5604B;
 }
 
+
+
 /* Navbar */
 nav{
     width: 100%;
@@ -49,6 +49,11 @@ nav{
     position: fixed;
     margin-top: -50px;
     z-index: 50;
+}
+
+#main-img{
+    width: 100%;
+    height: 500px;
 }
 
 #logo_img{
@@ -66,6 +71,74 @@ nav{
     color: white;
 }
 
+#logo_img2{
+    width: 65px;
+    height: 65px;
+    margin-top: 5px;
+}
+
+#name2{
+    padding: 20px;
+}
+
+#nameText2{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+#logo_img3{
+    width: 55px;
+    height: 55px;
+    margin-top: 10px;
+    margin-left: -35px;
+}
+
+#name3{
+    padding: 20px;
+}
+
+#nameText3{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.menu-responsive{
+    width: 100%;
+    min-height: 80px;
+    z-index: 1;
+    margin-top: -15px;
+    color: white;
+    font-weight: 600;
+    
+    background-color: rgb(255, 179, 166,0.8);
+    display: none;
+}
+
+
+
+#open_menu{
+    width: 35px;
+    height: 35px;
+    margin-top: 31px;
+    cursor: pointer;
+}
+
+.show{
+    display: block;
+}
+
+.hidden{
+    display: none;
+}
+
+#close_menu{
+    width: 25px;
+    height: 25px;
+    margin-top: 35px;
+    cursor: pointer;
+    display: none;
+}
+
 .flex-logo{
     display: flex;
     justify-content: stretch;
@@ -80,9 +153,14 @@ nav{
     margin-left: 50px;
 }
 
+.logo-footer{
+    padding: 75px;
+}
+
 ul {
     display: flex;
     list-style-type: none;
+    margin-right: 50px;
 }
 
 ul li {
@@ -119,6 +197,40 @@ ul li a:hover {
 ul li a:hover::after {
     transform: scaleX(1);
     transform-origin: left;
+}
+
+.flex-ul{
+    margin-top: 150px;
+    display: inline-flex;
+    justify-content: start;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+}
+
+.media{
+    width: 25px;
+    height: 25px;
+}
+
+.footer-link{
+    margin-left: 25px;
+   
+}
+
+.flex-ul > span{
+    
+    margin-top: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+a:hover{
+    color: white;
 }
 
 /* Sections */
@@ -410,14 +522,25 @@ input:focus{
 /* Footer */
 footer{
     width: 100%;
-    height: 200px;
+    height: 500px;
     background-color: #FFB3A6;
 }
 
 /* Media Querys */
 /* Small devices */
 @media screen and (max-width: 411px){
-    
+    ul {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        list-style-type: none;
+        margin-right: 50px;
+    }
+
+    footer{
+        height:1024px;
+    }
+
     #text-background-svg2{
         margin-top: 45px;
     }
@@ -507,12 +630,22 @@ footer{
         width: 25px;
         height: 25px;
     }
+    
 }
 
 
 
 /* Medium devices */
 @media (min-width: 411px) and (max-width: 798px){
+    ul {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        list-style-type: none;
+        margin-right: 50px;
+    }
+
+
     #text-background-svg{
         margin-top: 50px;
         font-size: 38px;
@@ -580,6 +713,7 @@ footer{
 
 /* Large devices */
 @media (min-width: 798px) and (max-width: 1300px){
+    
     #text-background-svg{
         margin-top: 80px;
         font-size:38px;
@@ -588,7 +722,8 @@ footer{
     }
 
     #text-background-svg2{
-        margin-top: 100px;
+        margin-top: 80px;
+        font-size: 36px;
     }
    
     #middle-design-button{
@@ -644,6 +779,7 @@ footer{
 }
 
 @media  (min-width: 1300px){
+
     #text-background-svg{
         margin-top: 50px;
         font-size:38px;
